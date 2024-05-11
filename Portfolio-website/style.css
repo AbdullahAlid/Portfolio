@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: whitesmoke;
+}
+
+p {
+    width: 300px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.contact-firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 200px 0;
+
+}
+
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 2.5rem;
+    padding: 50px 0;
+}
+
+.leftsection .buttons{
+    padding: 50px 0;
+}
+
+.leftsection .btn{
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.rightsection {
+    padding: 50px 0;
+}
+
+.rightsection img {
+    width: 50%;
+    height: 70%;
+}
+
+.purple {
+    color: purple;
+    width: 40%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(88, 88, 231);
+    font-size: 1.02rem;
+}
+
+#element {
+    color: rgb(88, 88, 231);
+}
+
+.secondsection {
+    margin: auto;
+    max-width: 80vw;
+    height: 80vh;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.gray {
+    color: gray;
+}
+
+.secondsection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.image-top {
+    width: 45px;
+    position: relative;
+    top: -40px;
+    left: -20px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 200px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 91px;
+    color: grey;
+    width: 250px;
+    font-size: 12px;
+}
+
+.secondsection .vertical {
+    background: white;
+    width: 1px;
+    height: 93px;
+    margin: 0 180px;
+}
+footer{
+    background-color: #0e0e1a;
+    height: 90px;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content:  space-evenly;
+    
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer > div {
+    width: 223px;
+    
+}

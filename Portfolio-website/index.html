@@ -1,85 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Alid, Abdullah Al</title>
-        <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alid, Abdullah Al</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-        body {
-            background-color: rgb(0, 0, 33);
-            color: whitesmoke;
-        }
-        nav{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 80px;
-            background-color: rgb(18, 18, 62);
-        }
-        nav ul{
-            display: flex;
-            justify-content: center;
-        }
+<body>
+    <header>
+        <nav>
+            <div class="left">Alid's portfolio.</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    
+                    <li><a href="contact.html">Others</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-        nav ul li{
-            list-style: none;
-            margin: 0 23px;
-        }
-        .left{
-            font-size: 1.5rem;
-        }
-        .firstsection{
-            display: flex;
-            justify-content: space-around;
-        }
-        .firstsection div{
-            width: 30%;
-        }
-        .leftsection{
-            font-size: 2.5rem;
-            padding: 50px 0;
-        }
-
-        .rightsection{
-            padding: 50px 0; 
-        }
-        .rightsection img{
-            width: 80% ;
-        }
-    </style>
-    </head>
-
-    <body>
-        <header>
-            <nav>
-                <div class="left">Alid's portfolio.</div>
-                <div class="right">
-                    <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Project</li>
-                        <li>Contact me</li>
-                    </ul>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hello, Myself <p class="purple">Abdullah Al Alid.</p>
+                <p>I am a pationate</p>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="Alid.pdf" download="" class="btn">Download Resume</a>
+                    <a href="https://github.com/AbdullahAlid/" target="_blank" class="btn">Visit Github </a>
                 </div>
-            </nav>
-        </header>
+            </div>
 
-        <main>
-            <section class="firstsection">
-                <div class="leftsection">
-                    Hello, Myself Abdullah Al Alid. I am a Software Engineer.
+            <div class="rightsection">
+                <img src="Alid-passport.jpg" alt>
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="gray">What I have done so far ...</span>
+            <h1>Job Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="web-design-3411373_1280.jpg" alt>
+                    <div class="vertical-title">Internship - American
+                        International University-Bangladesh</div>
+                    <div class="vertical-desc">Worked as an Intern Student for 4 months as a form of internship offered
+                        by the Faculty of Science and Technology, American International University, Bangladesh</div>
                 </div>
-                <div class="rightsection">
-                    <img src="SE.png" alt>
+                <div class="vertical">
+                    <img class="image-top" src="web-design-3411373_1280.jpg" alt>
+                    <div class="vertical-title">Software Engineer (ERP) -
+                        Kovair Software Bangladesh Ltd.</div>
+                    <div class="vertical-desc">Employed as a full-time Software Engineer (ERP) at Kovair Software
+                        Bangladesh Limited, commencing duties on February 1, 2023.</div>
                 </div>
-            </section>
-        </main>
-    </body>
+                <div class="vertical">
+                    <img class="image-top" src="web-design-3411373_1280.jpg" alt>
+                    <div class="vertical-title">Software Engineer (ERP) -
+                        Raspberry ERP Pvt. Ltd. India Office.</div>
+                    <div class="vertical-desc">Deployed to Raspberry ERP Pvt. Ltd. India Office from my designated
+                        workplace to contribute to a software development initiative, spanning the period from February
+                        1, 2024, to March 17, 2024.</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                Alid's Developer Portfolio.
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Software Engineer.', 'Web Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
 
 </html>
